@@ -1,5 +1,6 @@
-$primary-color: rgb(0, 225, 255);
+$primary-color: rgb(18, 223, 250);
 $secondary-color: rgb(210, 249, 250);
+$darkFont-color: #061035;
 
 *{
     padding:0;
@@ -8,7 +9,7 @@ $secondary-color: rgb(210, 249, 250);
 }
 body{
     font-family: 'Raleway', serif;
-    color: #020a26;
+    color: $darkFont-color;
     font-size: 1.2rem;
     overflow-x: hidden;
     .response{
@@ -36,12 +37,12 @@ body{
     display:flex;
     flex-direction: column;
     background-color: $primary-color;
-    padding:20px 20px 40px;
+    padding:20px 5px 40px;
 
 
     header{
         width: 100%;
-        padding:20px 20px 20px;
+        padding:20px 5px 20px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -171,18 +172,21 @@ section.first{
     background-image: url(../images/pic5.jpeg);
     background-attachment: fixed;
     color: white;
+    h2{
+        font-family: 'Poiret One', sans-serif;
+        color: $secondary-color;
+        font-size: 105%;
+        text-shadow: 2px 2px 3px rgb(226, 144, 144);
+        text-decoration: none;
+        text-align: center;
+
+    }
     div{
         text-align: center;
         width:100%;
         background-color: rgba(2, 10, 38,.6);
         padding: 20px;
-        h2{
-            font-family: 'Poiret One', sans-serif;
-            color: $secondary-color;
-            font-size: 105%;
-            text-shadow: 2px 2px 3px rgb(226, 144, 144);
-            text-decoration: underline;
-        }
+       
         ul{
             
             list-style: none;
@@ -191,7 +195,7 @@ section.first{
          }
     .schedule{
         h2{
-            margin: 20px auto 10px;
+            margin: 10px auto 10px;
         }
         ul{
             margin-top: 10px;
@@ -345,15 +349,19 @@ div.content{
     form{
         position: relative;
         h2{
-            text-decoration: underline;
+            text-decoration: none;
         }
         input{
-            padding: 5px;
-            border-radius: 5px;
+            padding: 5px 0;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid $darkFont-color;
+            outline: none none black none;
             font-family:'Raleway' 'Vidaloka', 'Times New Roman', Times, serif;
+            background-color: $primary-color;
         }
         input:hover{
-            background-color: rgb(231, 226, 226);
+            background-color: $primary-color;
             
         }
         input[type=submit] {
@@ -444,7 +452,7 @@ div.content{
         .location{
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: center;
         }
     
 }

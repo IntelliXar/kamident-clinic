@@ -13,7 +13,6 @@ $secondary-color: rgb(210, 249, 250);
     header{
         nav{
             font-size: 90%;
-            
         }
         }
     }
@@ -35,7 +34,7 @@ $secondary-color: rgb(210, 249, 250);
         padding: 30px;
         h2{
             font-family: 'Poiret One', sans-serif;
-            color: $secondary-color;
+            color: $darkFont-color;
             font-size: 105%;
             text-shadow: 2px 2px 3px rgb(226, 144, 144);
             text-decoration: underline;

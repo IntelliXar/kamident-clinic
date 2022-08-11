@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Raleway', serif;
-  color: #020a26;
+  color: #061035;
   font-size: 1.2rem;
   overflow-x: hidden;
 }
@@ -39,13 +39,13 @@ body a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #00e1ff;
-  padding: 20px 20px 40px;
+  background-color: #12dffa;
+  padding: 20px 5px 40px;
 }
 
 .intro header {
   width: 100%;
-  padding: 20px 20px 20px;
+  padding: 20px 5px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +55,7 @@ body a:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-color: #00e1ff;
+  background-color: #12dffa;
   border-radius: 0px;
 }
 
@@ -134,7 +134,7 @@ p {
 .action-calls button {
   background-color: #d2f9fa;
   border-radius: 40px;
-  border: 1px solid #00e1ff;
+  border: 1px solid #12dffa;
   padding: 15px;
   width: 35%;
   min-width: 50px;
@@ -211,19 +211,20 @@ section.first div.dentist-image img {
   color: white;
 }
 
+.second h2 {
+  font-family: 'Poiret One', sans-serif;
+  color: #d2f9fa;
+  font-size: 105%;
+  text-shadow: 2px 2px 3px #e29090;
+  text-decoration: none;
+  text-align: center;
+}
+
 .second div {
   text-align: center;
   width: 100%;
   background-color: rgba(2, 10, 38, 0.6);
   padding: 20px;
-}
-
-.second div h2 {
-  font-family: 'Poiret One', sans-serif;
-  color: #d2f9fa;
-  font-size: 105%;
-  text-shadow: 2px 2px 3px #e29090;
-  text-decoration: underline;
 }
 
 .second div ul {
@@ -232,7 +233,7 @@ section.first div.dentist-image img {
 }
 
 .second .schedule h2 {
-  margin: 20px auto 10px;
+  margin: 10px auto 10px;
 }
 
 .second .schedule ul {
@@ -246,7 +247,7 @@ section.first div.dentist-image img {
 
 #first header {
   text-align: center;
-  background-color: #00e1ff;
+  background-color: #12dffa;
   text-align: center;
   border-radius: 10px;
   margin: 20px auto 20px;
@@ -266,7 +267,7 @@ div.content h1 {
 
 div.content ol {
   text-align: center;
-  background-color: #00e1ff;
+  background-color: #12dffa;
   text-align: center;
   border-radius: 10px;
   margin: 20px auto 20px;
@@ -326,8 +327,8 @@ div.content ol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(85%, #d2f9fa), color-stop(15%, #00e1ff));
-  background-image: linear-gradient(to bottom right, #d2f9fa 85%, #00e1ff 15%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(85%, #d2f9fa), color-stop(15%, #12dffa));
+  background-image: linear-gradient(to bottom right, #d2f9fa 85%, #12dffa 15%);
   border-radius: 5px;
   border: 1px solid #020a26;
   border-width: 0 1px 1px 0;
@@ -420,7 +421,7 @@ div.content ol {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #00e1ff;
+  background-color: #12dffa;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -434,23 +435,27 @@ div.content ol {
 }
 
 .form-map form h2 {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .form-map form input {
-  padding: 5px;
-  border-radius: 5px;
+  padding: 5px 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #061035;
+  outline: none none black none;
   font-family: 'Raleway' 'Vidaloka', 'Times New Roman', Times, serif;
+  background-color: #12dffa;
 }
 
 .form-map form input:hover {
-  background-color: #e7e2e2;
+  background-color: #12dffa;
 }
 
 .form-map form input[type=submit] {
   background-color: #d2f9fa;
   border-radius: 5px;
-  border: 1px solid #00e1ff;
+  border: 1px solid #12dffa;
   padding: 10px 5px;
   text-transform: uppercase;
   font-family: 'Raleway' 'Vidaloka', 'Times New Roman', Times, serif;
@@ -556,9 +561,9 @@ div.content ol {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {
