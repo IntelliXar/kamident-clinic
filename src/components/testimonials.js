@@ -15,11 +15,16 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className='mx-2 border-b border-gray-400'>
-      <h2 className='text-center text-4xl font-bold m-6'>Testimonials</h2>
+    <section className="mx-2 border-b border-gray-400">
+      <h2 className="text-center text-4xl font-bold m-6">Testimonials</h2>
       <div className="slider grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-2">
-        {visibleTestimonials.map((testimonial) => (
-          <div key={testimonial.id} className="testimonial bg-blue-400 rounded-lg shadow p-6 transition-all duration-500">
+        {visibleTestimonials.map((testimonial, index) => (
+          <div
+            key={testimonial.id}
+            className={`testimonial bg-blue-400 rounded-lg shadow p-6 transition-transform duration-500 ${
+              index === 0 ? 'current' : ''
+            }`}
+          >
             <div className="flex items-center mb-4">
               <img className="w-10 h-10 rounded-full mr-4" src={testimonial.image} alt="Profile" />
               <div>
@@ -32,10 +37,7 @@ export default function Testimonials() {
         ))}
       </div>
       <div className="text-right mt-4">
-        <button
-          className="text-5xl font-800 text-black px-2 pb-2 rounded-md"
-          onClick={handleNextSlide}
-        >
+        <button className="text-5xl font-800 text-black px-2 pb-2 rounded-md" onClick={handleNextSlide}>
           &rarr;
         </button>
       </div>

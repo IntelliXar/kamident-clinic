@@ -28,11 +28,11 @@ export default function Services() {
       </div>
       {isModalOpen && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-90 flex items-center justify-center">
-          <div className="bg-white rounded-lg w-1/2 p-8">
+          <div className="bg-white rounded-lg w-[full] md:w-1/2 mx-4 p-8 ">
             <h3 className="text-2xl font-bold mb-4">{selectedService.title}</h3>
             <p className="text-gray-600 mb-8">{selectedService.longDescription}</p>
             <button
-              className="absolute top-8 right-8 mt-4 mr-4 bg-white rounded-full p-2 hover:bg-gray-500"
+              className="absolute top-8 right-8 mt-4 mr-3 bg-white rounded-full p-2 hover:bg-gray-500"
               onClick={() => setIsModalOpen(false)}
             >
               Close
