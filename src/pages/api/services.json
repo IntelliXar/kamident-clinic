@@ -1,82 +1,82 @@
 [
-    {
-      "id": 1,
-      "image": "/images/service1.jpg",
-      "title": "Teeth Whitening",
-      "shortDescription": "Achieve a brighter smile with our professional teeth whitening services.",
-      "longDescription": "Our teeth whitening treatments are safe, effective, and can significantly enhance the brightness of your smile. Whether you have stained or discolored teeth, our experienced dentists will help you achieve the whiter smile you desire.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 2,
-      "image": "/images/service2.jpg",
-      "title": "Dental Implants",
-      "shortDescription": "Restore your smile and regain your confidence with dental implants.",
-      "longDescription": "Dental implants are a permanent solution for missing teeth. Our skilled dentists use advanced techniques to replace missing teeth with durable and natural-looking dental implants. Regain your ability to chew, speak, and smile confidently.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 3,
-      "image": "/images/service3.jpg",
-      "title": "Orthodontics",
-      "shortDescription": "Straighten your teeth and achieve a beautifully aligned smile.",
-      "longDescription": "Our orthodontic treatments can help correct misaligned teeth, crowded teeth, and bite issues. We offer various orthodontic options, including traditional braces and clear aligners, to suit your needs and preferences. Start your journey towards a straighter smile today.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 4,
-      "image": "/images/service4.jpg",
-      "title": "Dental Cleanings",
-      "shortDescription": "Maintain your oral health with regular dental cleanings.",
-      "longDescription": "Regular dental cleanings are essential for preventing dental issues such as cavities and gum disease. Our skilled hygienists will thoroughly clean your teeth, remove plaque and tartar buildup, and provide guidance on maintaining good oral hygiene habits.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 5,
-      "image": "/images/service5.jpg",
-      "title": "Cosmetic Dentistry",
-      "shortDescription": "Enhance the appearance of your smile with cosmetic dentistry.",
-      "longDescription": "Cosmetic dentistry can transform your smile and boost your self-confidence. Our cosmetic dental treatments include dental veneers, composite bonding, and smile makeovers. Achieve the smile of your dreams with our personalized cosmetic dental solutions.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 6,
-      "image": "/images/service6.jpg",
-      "title": "Root Canal Treatment",
-      "shortDescription": "Save your natural tooth with our expert root canal treatment.",
-      "longDescription": "Root canal treatment is an effective way to save an infected or decayed tooth. Our experienced endodontists will carefully remove the infected pulp, clean the tooth, and seal it to prevent further infection. Preserve your natural tooth and alleviate pain with our specialized root canal treatment.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 7,
-      "image": "/images/service7.jpg",
-      "title": "Pediatric Dentistry",
-      "shortDescription": "Ensure your child's dental health with our specialized pediatric dentistry services.",
-      "longDescription": "We provide comprehensive dental care for children, focusing on preventive measures and early intervention. Our gentle and friendly pediatric dentists create a comfortable environment for your child, making their dental visit a positive experience. Start your child's dental journey with us.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 8,
-      "image": "/images/service8.jpg",
-      "title": "Periodontal Care",
-      "shortDescription": "Maintain healthy gums and prevent gum disease with our periodontal care.",
-      "longDescription": "Healthy gums are crucial for maintaining overall oral health. Our periodontal care includes thorough gum examinations, professional deep cleanings, and personalized treatment plans. Prevent and treat gum disease with our specialized periodontal care services.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 9,
-      "image": "/images/service9.jpg",
-      "title": "Sedation Dentistry",
-      "shortDescription": "Relax during dental procedures with our sedation dentistry options.",
-      "longDescription": "We offer sedation dentistry for patients who experience dental anxiety or require extensive dental procedures. Our sedation techniques help you relax and feel comfortable throughout your treatment. Receive the dental care you need without stress or discomfort.",
-      "buttonText": "Learn More"
-    },
-    {
-      "id": 10,
-      "image": "/images/service10.jpg",
-      "title": "Emergency Dental Care",
-      "shortDescription": "Receive prompt dental care during dental emergencies.",
-      "longDescription": "Dental emergencies can happen at any time, and our team is here to provide immediate care. Whether you experience severe tooth pain, a knocked-out tooth, or a dental injury, our emergency dental services ensure that you receive the necessary treatment promptly.",
-      "buttonText": "Learn More"
-    }
-  ]
+  {
+    "id": 1,
+    "image": "/images/teeth-whitening.jpeg",
+    "title": "Teeth Whitening",
+    "shortDescription": "Achieve a brighter smile with our professional teeth whitening services.",
+    "longDescription": "Our teeth whitening treatments are safe, effective, and can significantly enhance the brightness of your smile. Whether you have stained or discolored teeth, our experienced dentists will help you achieve the whiter smile you desire.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 2,
+    "image": "/images/dental-implants.jpeg",
+    "title": "Dental Implants",
+    "shortDescription": "Restore your smile and regain your confidence with dental implants.",
+    "longDescription": "Dental implants are a permanent solution for missing teeth. Our skilled dentists use advanced techniques to replace missing teeth with durable and natural-looking dental implants. Regain your ability to chew, speak, and smile confidently.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 3,
+    "image": "/images/orthodontics.jpeg",
+    "title": "Orthodontics",
+    "shortDescription": "Straighten your teeth and achieve a beautifully aligned smile.",
+    "longDescription": "Our orthodontic treatments can help correct misaligned teeth, crowded teeth, and bite issues. We offer various orthodontic options, including traditional braces and clear aligners, to suit your needs and preferences. Start your journey towards a straighter smile today.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 4,
+    "image": "/images/dental-cleanings.jpeg",
+    "title": "Dental Cleanings",
+    "shortDescription": "Maintain your oral health with regular dental cleanings.",
+    "longDescription": "Regular dental cleanings are essential for preventing dental issues such as cavities and gum disease. Our skilled hygienists will thoroughly clean your teeth, remove plaque and tartar buildup, and provide guidance on maintaining good oral hygiene habits.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 5,
+    "image": "/images/cosmetic-dentistry.jpeg",
+    "title": "Cosmetic Dentistry",
+    "shortDescription": "Enhance the appearance of your smile with cosmetic dentistry.",
+    "longDescription": "Cosmetic dentistry can transform your smile and boost your self-confidence. Our cosmetic dental treatments include dental veneers, composite bonding, and smile makeovers. Achieve the smile of your dreams with our personalized cosmetic dental solutions.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 6,
+    "image": "/images/root-canal.jpeg",
+    "title": "Root Canal Treatment",
+    "shortDescription": "Save your natural tooth with our expert root canal treatment.",
+    "longDescription": "Root canal treatment is an effective way to save an infected or decayed tooth. Our experienced endodontists will carefully remove the infected pulp, clean the tooth, and seal it to prevent further infection. Preserve your natural tooth and alleviate pain with our specialized root canal treatment.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 7,
+    "image": "/images/pediatric.jpeg",
+    "title": "Pediatric Dentistry",
+    "shortDescription": "Ensure your child's dental health with our specialized pediatric dentistry services.",
+    "longDescription": "We provide comprehensive dental care for children, focusing on preventive measures and early intervention. Our gentle and friendly pediatric dentists create a comfortable environment for your child, making their dental visit a positive experience. Start your child's dental journey with us.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 8,
+    "image": "/images/periodontal-care.jpeg",
+    "title": "Periodontal Care",
+    "shortDescription": "Maintain healthy gums and prevent gum disease with our periodontal care.",
+    "longDescription": "Healthy gums are crucial for maintaining overall oral health. Our periodontal care includes thorough gum examinations, professional deep cleanings, and personalized treatment plans. Prevent and treat gum disease with our specialized periodontal care services.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 9,
+    "image": "/images/sedation.jpeg",
+    "title": "Sedation Dentistry",
+    "shortDescription": "Relax during dental procedures with our sedation dentistry options.",
+    "longDescription": "We offer sedation dentistry for patients who experience dental anxiety or require extensive dental procedures. Our sedation techniques help you relax and feel comfortable throughout your treatment. Receive the dental care you need without stress or discomfort.",
+    "buttonText": "Learn More"
+  },
+  {
+    "id": 10,
+    "image": "/images/emergency.jpeg",
+    "title": "Emergency Dental Care",
+    "shortDescription": "Receive prompt dental care during dental emergencies.",
+    "longDescription": "Dental emergencies can happen at any time, and our team is here to provide immediate care. Whether you experience severe tooth pain, a knocked-out tooth, or a dental injury, our emergency dental services ensure that you receive the necessary treatment promptly.",
+    "buttonText": "Learn More"
+  }
+]
