@@ -1,6 +1,7 @@
 export default function CopyRight() {
-  const currentYear = new Date().getFullYear();
 
+  const currentYear = new Date().getFullYear();
+  
   return (
     <section className="bg-blue-200 text-center py-4">
       <div>
