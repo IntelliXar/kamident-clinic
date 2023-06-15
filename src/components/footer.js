@@ -3,8 +3,8 @@ import React from 'react';
 export default function Footer() {
   return (
       <footer className="bg-blue-100 w-[100%]">
-        <div className="mx-auto px-0">
-          <h3 className='p-4 text-4xl text-center font-bold '>Contacts</h3>
+        <div className="mx-auto px-0 pb-8">
+          <h3 className='p-4 text-4xl text-center font-bold '>Contact</h3>
           <ul className="flex gap-10 align-center justify-center py-6 font-bold border-b border-gray-300">
             <li>
               Email: <a href="mailto:kamident@gmail.com">kamident@gmail.com</a>
