@@ -1,32 +1,37 @@
 [
-    {
-      "id": 1,
-      "name": "John Smith",
-      "occupation": "Teacher",
-      "testimonial": "I had a great experience with this dental clinic. The staff was friendly, and the dentist was highly skilled. I highly recommend them!"
-    },
-    {
-      "id": 2,
-      "name": "Jane Doe",
-      "occupation": "Accountant",
-      "testimonial": "I've been a patient at this dental clinic for years, and I'm always impressed by their professionalism and quality of service. They truly care about their patients."
-    },
-    {
-      "id": 3,
-      "name": "Mike Johnson",
-      "occupation": "Engineer",
-      "testimonial": "I had a tooth extraction procedure done at this clinic, and the dentist made me feel comfortable throughout the process. The results were excellent, and the recovery was smooth."
-    },
-    {
-      "id": 4,
-      "name": "Sarah Thompson",
-      "occupation": "Writer",
-      "testimonial": "The dental team here is fantastic! They are knowledgeable, gentle, and attentive. They explain everything thoroughly and make sure you feel at ease during your visit."
-    },
-    {
-      "id": 5,
-      "name": "David Wilson",
-      "occupation": "Business Owner",
-      "testimonial": "I'm extremely satisfied with the dental services I received at this clinic. The staff is friendly, the facility is clean and modern, and they provide top-notch care."
-    }
-  ]
+  {
+    "id": 1,
+    "name": "John Smith",
+    "occupation": "Teacher",
+    "testimonial": "I had a great experience with this dental clinic. The staff was friendly, and the dentist was highly skilled. I highly recommend them!",
+    "image": "/images/rev1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "occupation": "Accountant",
+    "testimonial": "I've been a patient at this dental clinic for years, and I'm always impressed by their professionalism and quality of service. They truly care about their patients.",
+    "image": "/images/rev2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "occupation": "Engineer",
+    "testimonial": "I had a tooth extraction procedure done at this clinic, and the dentist made me feel comfortable throughout the process. The results were excellent, and the recovery was smooth.",
+    "image": "/images/rev3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Thompson",
+    "occupation": "Writer",
+    "testimonial": "The dental team here is fantastic! They are knowledgeable, gentle, and attentive. They explain everything thoroughly and make sure you feel at ease during your visit.",
+    "image": "/images/rev4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "occupation": "Business Owner",
+    "testimonial": "I'm extremely satisfied with the dental services I received at this clinic. The staff is friendly, the facility is clean and modern, and they provide top-notch care.",
+    "image": "/images/rev5.jpeg"
+  }
+]
