@@ -5,12 +5,12 @@ export default function Footer() {
       <footer className="bg-blue-100 w-[100%]">
         <div className="mx-auto px-0 pb-8">
           <h3 className='p-4 text-4xl text-center font-bold '>Contact</h3>
-          <ul className="flex gap-10 align-center justify-center py-6 font-bold border-b border-gray-300">
+          <ul id="location" className="flex gap-10 align-center justify-center py-6 font-bold border-b border-gray-300">
             <li>
-              Email: <a href="mailto:kamident@gmail.com">kamident@gmail.com</a>
+              Email: <a href="mailto:kamident@gmail.com" className="hover:underline">kamident@gmail.com</a>
             </li>
             <li>
-              Phone: <a href="tel:+254706262436">0706262436</a>
+              Phone: <a href="tel:+254706262436" className="hover:underline">0706262436</a>
             </li>
           </ul>
 
