@@ -5,3 +5,6 @@
     --darkblueShade: #003049;
     --lightblueShade: #90e0ef;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
